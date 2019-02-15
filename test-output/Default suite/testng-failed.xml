@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="scripts.HomePage">
+        <methods>
+          <include name="blankenddate"/>
+          <include name="blankinvalidenddate"/>
+          <include name="closeapp"/>
+          <include name="acheckflights"/>
+          <include name="launchapp"/>
+          <include name="blankdestination"/>
+          <include name="blankstartdate"/>
+          <include name="blanksource"/>
+        </methods>
+      </class> <!-- scripts.HomePage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
